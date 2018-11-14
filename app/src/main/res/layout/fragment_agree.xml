@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_background"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_action_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:textColor="@color/btn_back"
+            android:textSize="16sp"
+            android:singleLine="true"
+            />
+        <LinearLayout
+            android:id="@+id/layout_close"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_close"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/btn_gray3"
+                android:text=""
+                android:layout_marginTop="16dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

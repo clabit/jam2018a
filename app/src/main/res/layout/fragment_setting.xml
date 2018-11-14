@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_background"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/btn_version"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="48dp"-->
+                <!--android:gravity="center|left"-->
+                <!--android:paddingLeft="16dp"-->
+                <!--android:paddingRight="16dp"-->
+                <!--android:background="@color/white"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textColor="@color/btn_back"-->
+                <!--android:text="잼 버전"-->
+                <!--/>-->
+
+            <TextView
+                android:id="@+id/btn_removeaudioimage"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="@string/setting_removeaudio"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:textSize="16sp"
+                    android:textColor="@color/btn_back"
+                    android:text="@string/setting_push"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_push"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_agree01"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="@string/setting_agree01"
+                />
+
+            <TextView
+                android:id="@+id/btn_agree02"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="@string/setting_agree02"
+                />
+
+            <TextView
+                android:id="@+id/btn_agree03"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="@string/setting_agree03"
+                />
+
+            <TextView
+                android:id="@+id/btn_agree04"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="@string/setting_agree04"
+                />
+
+
+            <TextView
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="로그아웃"
+                />
+
+
+
+            <TextView
+                android:id="@+id/btn_admin_starlist"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="= 인기잼 목록보기"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/btn_admin_removelist"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:background="@color/white"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:text="= 홍보잼 목록 제거"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <TextView
+        android:id="@+id/btn_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="12sp"
+        android:textColor="@color/btn_gray3"
+        android:text="잼 버전"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">AndroidAudioRecorder</string>
+    <string name="aar_save">Save</string>
+    <string name="aar_paused">Paused</string>
+    <string name="aar_recording">Recording</string>
+    <string name="aar_playing">Playing</string>
+    <string name="aar_msg_desc">최대 15초간 녹음 할수 있습니다.\n음성메시지는 잼을 나가면 자동 삭제 됩니다.</string>
+
+</resources>

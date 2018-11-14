@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:background="@color/white"
+            android:elevation="1dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+                <!--<ImageView-->
+                    <!--android:id="@+id/btn_search"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:scaleType="center"-->
+                    <!--android:src="@drawable/btn_search"-->
+                    <!--android:visibility="gone"-->
+                    <!--/>-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:textColor="@color/btn_back"
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:text="@string/private_list_title"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/left_close"
+                android:layout_width="@dimen/toolbar_height"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_gravity="right"
+                >
+               <!-- 비밀메세지 전체 지우기 버튼 -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|left"
+                    android:textColor="@color/btn_back"
+                    android:text="@string/btn_pchatdelete"
+                    />
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/left_swipelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/left_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

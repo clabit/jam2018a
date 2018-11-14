@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/root"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:color/transparent"
+	android:orientation="horizontal"
+	>
+
+	<LinearLayout
+		android:id="@+id/layout_player_menu"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center|left"
+		android:layout_centerInParent="true"
+		android:background="@drawable/round_white_background"
+		android:paddingLeft="24dp"
+		android:paddingTop="24dp"
+		android:layout_margin="3dp"
+		>
+
+
+		<EditText
+			android:id="@+id/et_desc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:layout_marginRight="24dp"
+			android:background="@null"
+			android:singleLine="true"
+			android:padding="7dp"
+			android:textColor="#000000"
+			android:textSize="16sp"
+			android:textColorHint="#b4b4b4"
+			android:inputType="text"
+			android:maxLength="40"
+			android:textCursorDrawable="@drawable/color_cursor_chat"
+			android:hint="@string/private_msg_hint"
+			/>
+
+
+	</LinearLayout>
+
+
+
+</LinearLayout>

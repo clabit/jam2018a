@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:layout_marginRight="15dp"-->
+    <!--android:paddingLeft="19dp"-->
+    <!--android:paddingRight="19dp"-->
+    <!--android:paddingTop="8.0dp"-->
+    <!--android:paddingBottom="15.0dp"-->
+    <!--android:background="#b2000000"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center|top"
+        android:paddingRight="19dp"
+        android:paddingLeft="19dp"
+        >
+        <ImageView
+            android:id="@+id/img_toast"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center|top"
+        android:paddingRight="19dp"
+        android:paddingLeft="19dp"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            >
+            <TextView
+                android:id="@+id/text_toast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/talk_bubble2"
+                android:gravity="center"
+                android:textColor="@color/btn_back"
+                android:textSize="@dimen/font_level_2"
+                android:text=""
+                />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="9dp"
+            android:src="@drawable/icon_jam"
+            android:background="@drawable/circle_white_bg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

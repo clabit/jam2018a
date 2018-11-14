@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/iv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="146dp"
+        android:src="@drawable/splash"
+        android:visibility="gone"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/lay_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:src="@drawable/splash"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_maincolor_background"
+            android:padding="16dp"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_google"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="구글 계정으로 시작하기"
+                />
+        </LinearLayout>
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_google"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/btn_login_google"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+
+
+        <LinearLayout
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_bluecolor_background"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_facebook"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="페이스북 계정으로 시작하기"
+                />
+        </LinearLayout>
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_facebook"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/btn_login_facebook"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_kakao"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/btn_login_kakao"-->
+            <!--android:visibility="gone"-->
+            <!--/>-->
+
+
+        <!--<com.facebook.login.widget.LoginButton-->
+            <!--android:id="@+id/btn_facebook"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--/>-->
+    </LinearLayout>
+</FrameLayout>

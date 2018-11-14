@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragment_background"
+    >
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                >
+                <LinearLayout
+                    android:id="@+id/lay_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/btn_photo"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:textColor="@color/btn_gray"
+                            android:text="@string/create_title"
+                            />
+                        <TextView
+                            android:id="@+id/tv_title_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/btn_gray"
+                            android:text="0/13"
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <EditText
+                        android:id="@+id/et_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/btn_back"
+                        android:background="@drawable/round_white_background"
+                        android:maxLength="13"
+                        android:singleLine="true"
+                        android:layout_marginTop="8dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/btn_gray"
+                    android:text="@string/create_text"
+                    />
+                <TextView
+                    android:id="@+id/tv_text_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/btn_gray"
+                    android:text="0/200"
+                    />
+
+            </LinearLayout>
+
+
+            <com.lib.hashtag.views.HashTagEditText
+                android:id="@+id/et_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="132dp"
+                android:gravity="top"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/btn_back"
+                android:background="@drawable/round_white_background"
+                android:maxLength="200"
+                android:layout_marginTop="8dp"
+                android:hint="@string/jam_create_hint"
+                xmlns:app = "http://schemas.android.com/apk/res-auto"
+                app:hashTagColor="@color/pink"
+                app:trackHashTag="true"
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/lay_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_gray"
+                        android:text="@string/create_cate"
+                        />
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    >
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="50dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/btn_back"
+                        android:background="@drawable/round_white_background"
+                        android:singleLine="true"
+                        android:entries="@array/catelist2"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_select"
+                        android:layout_gravity="center|right"
+                        android:layout_marginRight="16dp"
+                        />
+                </FrameLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginRight="4dp"
+                        >
+                        <TextView
+                            android:id="@+id/tv_join_msg01"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:textColor="@color/btn_back"
+                            android:text="@string/create_lock"
+                            />
+                        <TextView
+                            android:id="@+id/tv_join_msg02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="@color/btn_gray"
+                            android:text="@string/create_lock_desc"
+                            android:layout_marginTop="4dp"
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/btn_lock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_lock"
+                        />
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_marginRight="4dp"
+                    >
+                    <TextView
+                        android:id="@+id/tv_uc_msg01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_back"
+                        android:text="@string/create_uc01"
+                        />
+                    <TextView
+                        android:id="@+id/tv_uc_msg02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="@color/btn_gray"
+                        android:text="@string/create_uc_desc01"
+                        android:layout_marginTop="4dp"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btn_uc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_unlock"
+                    />
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv_feed_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:gravity="center"
+                android:background="@drawable/round_maincolor_background"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="@string/feed_write"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_feed_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_maincolor_background"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/feed_notice"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>  <!-- admin 공지게시 버튼-->
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ececec"/>
+
+    </LinearLayout>
+</LinearLayout>

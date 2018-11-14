@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fragment_background"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_action_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:textColor="@color/btn_back"
+            android:textSize="16sp"
+            android:singleLine="true"
+            />
+
+
+        <TextView
+            android:id="@+id/btn_story"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/feed_write_regist_bg"
+            android:gravity="center"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:text="@string/story_join"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_back"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_popup_back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_close"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/btn_close"/>
+        </LinearLayout>
+
+    </FrameLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/lay_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    >
+
+                    <com.novato.jam.customview.CircleImageView
+                        android:id="@+id/iv_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/btn_photo"
+                        android:layout_marginRight="5dp"
+                        android:visibility="gone"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_gray"
+                        android:gravity="center|left"
+                        android:text=""
+                        android:textIsSelectable="true"
+                        android:autoLink="web"
+                        android:textColorLink="@color/icon_color08"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+                <TextView
+                    android:id="@+id/btn_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="30dp"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:background="@drawable/round_maincolor_background"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/feed_join"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lay_ready"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/tv_ready"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="@color/btn_back"
+                    android:textSize="14sp"
+                    android:text="승인대기 (0)"
+                    />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/list01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"></android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/btn_back"
+                android:textSize="14sp"
+                android:text="MEMBER (0)"
+                />
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"></android.support.v7.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/lay_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ececec"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

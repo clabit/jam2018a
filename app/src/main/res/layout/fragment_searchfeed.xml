@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_background"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/white"
+        android:elevation="1dp"
+        >
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_action_title"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center|left"-->
+            <!--android:textColor="@color/btn_back"-->
+            <!--android:textSize="16sp"-->
+            <!--android:singleLine="true"-->
+            <!--android:text="@string/menu_search"-->
+            <!--/>-->
+
+
+        <LinearLayout
+            android:id="@+id/lay_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:background="#959595"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <EditText
+                    android:id="@+id/et_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/toolbar_height"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@null"
+                    android:padding="7dp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textColorHint="#b4b4b4"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:inputType="text"
+                    android:imeOptions="actionSend|flagNoExtractUi"
+                    android:maxLength="300"
+                    android:textCursorDrawable="@drawable/color_cursor_chat"
+                    android:hint="@string/menu_search"
+                    />
+                <TextView
+                    android:id="@+id/btn_send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/round_maincolor_background"
+                    android:gravity="center"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/btn_search"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#959595"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+
+        <TextView
+            android:id="@+id/btn_nolist"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center"
+            android:textColor="@color/btn_gray"
+            android:textSize="14sp"
+            android:text="@string/err_nolist"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            />
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+        <FrameLayout
+            android:id="@+id/lay_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ></FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

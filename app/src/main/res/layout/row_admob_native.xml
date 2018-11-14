@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical"
+    >
+	<FrameLayout
+		android:id="@+id/layout_root"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:background="@color/white"
+		>
+		<include layout="@layout/row_admob_native_small"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			/>
+	</FrameLayout>
+
+	<!--<com.google.android.gms.ads.AdView-->
+		<!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+		<!--android:id="@+id/admob"-->
+		<!--android:layout_width="match_parent"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--ads:adUnitId="@string/banner_ad_unit_id"-->
+		<!--/>-->
+	<!--ads:adSize="BANNER"-->
+
+	<!--
+	public static final AdSize BANNER = new AdSize(320, 50, "320x50_mb");
+    public static final AdSize FULL_BANNER = new AdSize(468, 60, "468x60_as");
+    public static final AdSize LARGE_BANNER = new AdSize(320, 100, "320x100_as");
+    public static final AdSize LEADERBOARD = new AdSize(728, 90, "728x90_as");
+    public static final AdSize MEDIUM_RECTANGLE = new AdSize(300, 250, "300x250_as");
+    public static final AdSize WIDE_SKYSCRAPER = new AdSize(160, 600, "160x600_as");
+    public static final AdSize SMART_BANNER = new AdSize(-1, -2, "smart_banner");
+    public static final AdSize FLUID = new AdSize(-3, -4, "fluid");
+    public static final AdSize zzrB = new AdSize(50, 50, "50x50_mb");
+    public static final AdSize SEARCH = new AdSize(-3, 0, "search_v2");
+	-->
+
+</LinearLayout>

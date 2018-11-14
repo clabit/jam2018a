@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="toolbar_elevation">4dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+
+
+
+    <!-- option menu -->
+    <dimen name="option_menu_text">14.0sp</dimen>
+    <dimen name="option_menu_width">138.0dp</dimen>
+    <dimen name="option_menu_item_height">48.0dp</dimen>
+    <dimen name="option_menu_margin_left">20.0dip</dimen>
+    <dimen name="option_menu_margin_middle">10.0dip</dimen>
+    <dimen name="option_menu_margin_right">20.0dip</dimen>
+
+    <!-- maring -->
+    <dimen name="margin_tiny">5.0dip</dimen>
+    <dimen name="margin_small">6.0dip</dimen>
+    <dimen name="margin_smaller">8.0dip</dimen>
+    <dimen name="margin_normal">10.0dip</dimen>
+    <dimen name="margin_large">13.0dip</dimen>
+    <dimen name="margin_large_m">15.0dip</dimen>
+    <dimen name="margin_large_h">17.0dip</dimen>
+    <dimen name="margin_xlarge">20.0dip</dimen>
+    <dimen name="margin_xxlarge">25.0dip</dimen>
+
+    <dimen name="media_list_item_padding">16.0dp</dimen>
+
+
+
+    <!-- video -->
+    <dimen name="thumbnail_video_width_hor">96.0dp</dimen>
+    <dimen name="thumbnail_video_height_hor">54.0dp</dimen>
+
+    <!-- list view -->
+    <dimen name="media_list_top_margin">9.0dp</dimen>
+    <dimen name="media_list_left_margin">9.0dp</dimen>
+    <dimen name="media_list_right_margin">9.0dp</dimen>
+    <dimen name="media_list_bottom_margin">9.0dp</dimen>
+    <dimen name="media_list_progress_top_margin">4.0dp</dimen>
+    <dimen name="media_list_progress_bottom_margin">4.0dp</dimen>
+    <dimen name="media_list_progress_height">2.0dp</dimen>
+
+
+    <!-- padding -->
+    <dimen name="padding_tiny">5.0dip</dimen>
+
+
+
+    <!-- font level - sp -->
+    <dimen name="font_level_min">10.0sp</dimen>
+    <dimen name="font_level_2">13.0sp</dimen>
+
+</resources>

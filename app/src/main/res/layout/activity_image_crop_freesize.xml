@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#000000"
+        >
+        <TextView
+            android:id="@+id/btn_crop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:text="@android:string/ok"
+            android:singleLine="true"
+            />
+
+        <LinearLayout
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/toolbar_height"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_popup_back"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <com.novato.jam.customview.MTouchImageCropView
+        android:id="@+id/touch_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        />
+
+
+
+</LinearLayout>

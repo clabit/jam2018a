@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment_background"
+    >
+
+
+    <TextView
+        android:id="@+id/btn_nolist"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+
+        android:gravity="center"
+        android:textColor="@color/btn_gray"
+        android:textSize="14sp"
+        android:text="@string/err_nolist"
+        android:visibility="gone"
+        />
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+    <ImageView
+        android:id="@+id/btn_write"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/btn_writing_feed"
+        android:visibility="gone"
+        />
+
+
+    <FrameLayout
+        android:id="@+id/fragment_mainfeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</RelativeLayout>

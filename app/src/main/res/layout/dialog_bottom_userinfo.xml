@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+	>
+
+
+	<FrameLayout
+		android:id="@+id/lay_top"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:paddingBottom="20dp"
+		android:visibility="gone"
+		>
+		<com.novato.jam.customview.CircleImageView
+			android:id="@+id/iv_img_top"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:maxWidth="240dp"
+			android:maxHeight="240dp"
+			android:minWidth="220dp"
+			android:minHeight="220dp"
+			android:layout_gravity="center"
+			/>
+
+	</FrameLayout>
+
+
+
+	<LinearLayout
+		android:id="@+id/lay_root"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingTop="20dp"
+		android:paddingBottom="16dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:gravity="center"
+		android:background="@color/white"
+		>
+
+		<FrameLayout
+			android:id="@+id/lay_middle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			>
+			<com.novato.jam.customview.CircleImageView
+				android:id="@+id/iv_img"
+				android:layout_width="80dp"
+				android:layout_height="80dp"
+				/>
+			<TextView
+				android:id="@+id/tv_in"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/white"
+				android:textSize="16sp"
+				android:layout_gravity="center"
+				android:maxLength="2"
+				/>
+		</FrameLayout>
+
+
+		<TextView
+			android:id="@+id/tv_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center"
+			android:textSize="24sp"
+			android:textColor="@color/btn_back"
+			android:text="잼"
+			/>
+
+		<TextView
+			android:id="@+id/tv_desc"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:gravity="center"
+			android:textSize="16sp"
+			android:textColor="@color/btn_gray"
+			android:text="소개"
+			/>
+
+
+		<TextView
+			android:id="@+id/btn_ban"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:gravity="center"
+			android:background="@drawable/round_maincolor_background"
+			android:textColor="@color/white"
+			android:textSize="16sp"
+			android:text="@string/member_ban"
+			android:layout_marginTop="20dp"
+			android:visibility="gone"
+			/>
+
+		<TextView
+			android:id="@+id/btn_mastar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:gravity="center"
+			android:background="@drawable/round_graycolor_background"
+			android:textColor="@color/white"
+			android:textSize="16sp"
+			android:text="@string/member_master"
+			android:layout_marginTop="20dp"
+			android:visibility="gone"
+			/>
+
+		<TextView
+			android:id="@+id/btn_joinok"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:gravity="center"
+			android:background="@drawable/round_maincolor_background"
+			android:textColor="@color/white"
+			android:textSize="16sp"
+			android:text="@string/member_joinok"
+			android:layout_marginTop="20dp"
+			android:visibility="gone"
+			/>
+
+		<TextView
+			android:id="@+id/btn_remove"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="16dp"
+			android:gravity="center"
+			android:background="@drawable/round_graycolor_background"
+			android:textColor="@color/white"
+			android:textSize="16sp"
+			android:text="@string/member_remove"
+			android:layout_marginTop="20dp"
+			android:visibility="gone"
+			/>
+
+
+	</LinearLayout>
+
+</LinearLayout>

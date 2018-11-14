@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:custom = "http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/lay_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.kekstudio.dachshundtablayout.DachshundTabLayout
+            xmlns:tabb = "http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sliding_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tabb:ddAnimatedIndicator="lineMove"
+            tabb:tabTextColor="@color/btn_gray"
+            tabb:tabSelectedTextColor="@color/btn_back"
+            tabb:ddIndicatorColor="@color/pink"
+            tabb:ddCenterAlign="false"
+            android:layout_marginBottom="2dp"
+            />
+
+        <FrameLayout
+            android:id="@+id/lay_topad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@+id/lay_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <!--<com.novato.jam.common.FontTabLayout-->
+    <!--xmlns:tab="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/tabs"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--tab:paddingStart="10dp"-->
+    <!--tab:paddingEnd="10dp"-->
+    <!--/>-->
+
+    </android.support.v4.view.ViewPager>
+
+
+    <ImageView
+        android:id="@+id/btn_search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/btn_search2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        />
+</RelativeLayout>

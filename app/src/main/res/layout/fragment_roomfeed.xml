@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    >
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lay_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#959595"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/et_comment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@null"
+                android:padding="7dp"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textColorHint="#b4b4b4"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:inputType="text"/>
+            <ImageButton
+                android:id="@+id/btn_send"
+                style="@style/Widget.AppCompat.ActionButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:enabled="false"
+                app:srcCompat="@drawable/btn_comment_send_selector"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/btn_write"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/btn_writing_feed"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

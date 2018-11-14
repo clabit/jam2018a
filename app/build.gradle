@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+
+android {
+    /*
+    keystore=jam2018.keystore
+    keystore_pass=jam1234
+    key_alias=jam
+    key_pass=jam1234
+
+    debug.keystore 다른것으로 교체 하면 안됨.
+    구글 로그인, 페이스북 로그인이 첨부되어있는 debug.keystore 키스토어 연동 되어있음
+
+    firebase계정
+    https://console.firebase.google.com/project/jam201803-5c729/overview?pli=1
+    https://console.firebase.google.com/project/jam201803-5c729
+    dev.jam2018@gmail.com
+    devjam1234
+
+    구글드라이브
+    https://drive.google.com/drive/my-drive
+    dev.jam2018@gmail.com
+
+     */
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    defaultConfig {
+        applicationId "com.novato.jam"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 83
+        versionName "1.6.9"
+
+
+        multiDexEnabled true
+
+        renderscriptTargetApi 23 as int
+        renderscriptSupportModeEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    project.ext { appName = "jam" + versionName + "_" + versionCode }
+                    def formattedDate = new Date().format('yyyy-MM-dd HH-mm-ss')
+                    def newName = output.outputFileName
+                    newName = newName.replace("app-", "$project.ext.appName-") //"MyAppName" -> I set my app variables in the root project
+                    newName = newName.replace("-release", "-r" + formattedDate)
+                    //noinspection GroovyAssignabilityCheck
+                    output.outputFileName = new File(output.outputFileName, newName)
+                }
+            }
+
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+        }
+    }
+
+
+    packagingOptions {
+//        exclude 'META-INF/NOTICE' // will not include NOTICE file //io.jsonwebtoken
+//        exclude 'META-INF/LICENSE' // will not include LICENSE file //io.jsonwebtoken
+    }
+}
+
+
+
+dependencies {
+    ext.compileEx = { lib, exModules, exGroups ->
+        implementation(lib) {
+            exModules.each { exclude module: "$it" }
+            exGroups.each { exclude group: "$it" }
+        }
+    }
+    List axisExModules = ['support-v4', 'appcompat-v7', 'design']
+    List axisExGroups = []
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:16.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    //    compile "com.google.android.gms:play-services-drive:11.8.0"
+    implementation 'com.google.firebase:firebase-invites:16.0.1'
+    implementation('com.google.api-client:google-api-client-android:1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    implementation('com.google.apis:google-api-services-drive:v3-rev108-1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+    }
+    //    compile 'com.google.http-client:google-http-client-gson:1.16.0-rc'
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    implementation 'com.google.firebase:firebase-auth:16.0.2'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.1.0'
+    'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    //    compile 'io.jsonwebtoken:jjwt:0.9.0'
+    //    compile (
+    //            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.9'],
+    //            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.8.9'],
+    //            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.9']
+    //    )
+    implementation 'com.facebook.android:facebook-android-sdk:4.28.0'
+    //    compile 'com.kakao.sdk:usermgmt:1.8.0'//20180207
+    //    compileEx ('com.kakao.sdk:kakaotalk:1.5.0' , axisExModules, axisExGroups)
+    implementation 'com.google.firebase:firebase-ads:15.0.1'
+    compileEx('com.kakao.sdk:kakaolink:1.8.0', axisExModules, axisExGroups)
+    implementation 'com.facebook.android:audience-network-sdk:4.28.1'
+    //facebook ads
+    //    compile 'uk.co.chrisjenx:calligraphy:2.2.0' // font
+    implementation 'me.leolin:ShortcutBadger:1.1.21@aar'
+    //launcher badge
+    implementation 'com.klinkerapps:link_builder:2.0.3'
+    //#tag
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    //http
+    //    compile 'com.github.adrielcafe:AndroidAudioRecorder:0.3.0'//https://github.com/adrielcafe/AndroidAudioRecorder
+    implementation project(':AndroidAudioRecorder')
+    implementation files('libs/glide-3.6.0.jar')
+    implementation 'com.cleveroad:audiovisualization:1.0.0'
+
+}
+apply plugin: 'com.google.gms.google-services'

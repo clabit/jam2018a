@@ -1,0 +1,1043 @@
+<resources>
+    <string name="app_name">잼</string>
+
+    <string name="app_scheme">jam</string>
+    <string name="app_host">data</string>
+    <string name="app_host_parameter">room</string>
+
+    <string name="kakao_scheme">kakaof75959ac36775e2c16a0291c5270bad5</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+
+    <string name="app_desc">구글스토어 익명 채팅놀이터 - 잼</string>
+
+    <string name="google_map_key">AIzaSyBlJz4o2pTgP2cvw5_nsW0lip3-hyU6Va8</string>
+
+    <string name="kakao_app_key">f75959ac36775e2c16a0291c5270bad5</string>
+
+    <string name="facebook_app_id">1897697773876301</string>
+    <string name="fb_login_protocol_scheme">fb1897697773876301</string>
+
+
+    <string name="join_title">회원가입</string>
+    <string name="login_title">로그인</string>
+
+    <string name="kakao_link_btn01">참여하기</string>
+
+    <string name="menu_list">잼 목록</string>
+    <string name="menu_me">내 잼</string>
+    <string name="menu_create">잼 만들기</string>
+    <string name="menu_setting">설정</string>
+    <string name="menu_search">#태그 검색</string>
+
+    <string-array name="catelist">
+        <item>홍보잼</item>
+        <item>친목</item>
+        <item>자유</item>
+        <item>역할극</item>
+        <item>남돌</item>
+        <item>여돌</item>
+        <item>게임</item>
+        <item>애니</item>
+        <item>솔로</item>
+        <!--<item>문화</item> 삭제된 카테고리-->
+        <item>사회</item>
+        <item>공지</item> <!-- 공지카테고리 추가 -->
+    </string-array>
+
+    <string-array name="catelist2">
+        <!--<item>전체</item>-->
+        <!--친목, 자유, 역할극, 남돌, 여돌,-->
+        <!--게임, 애니, 솔로, 문화, 사회-->
+
+        <item>친목</item>
+        <item>자유</item>
+        <item>역할극</item>
+        <item>남돌</item>
+        <item>여돌</item>
+        <item>게임</item>
+        <item>애니</item>
+        <item>솔로</item>
+        <!--<item>문화</item> 삭제된 카테고리-->
+        <item>사회</item>
+    </string-array>
+
+    <string-array name="chat_room_option">
+        <item>카카오톡 공유</item>
+        <item>내 정보 수정</item>
+        <item>참여 맴버 보기</item>
+        <item>잼 나가기</item>
+        <item>잼 신고</item>
+    </string-array>
+
+    <string-array name="chat_room_option_admin">
+        <item>카카오톡 공유</item>
+        <item>내 정보 수정</item>
+        <item>참여 맴버 보기</item>
+        <item>잼 나가기</item>
+        <item>잼 폐쇄하기</item>
+        <item>잼 홍보</item>
+        <item>잼 수정</item>
+    </string-array>
+
+    <!-- 비밀메세지 추가 -->
+    <string name="btn_pchatdelete">지우기</string>
+    <string name="ok_pchatdel">확인</string>
+    <string name="info_pchatdel">전부 지우기</string>
+    <string name="text_pchatdelareement">비밀쪽지가 전부 지워집니다.</string>
+    <string-array name="chat_room_add_file">
+        <item>15초 음성 메시지</item>
+        <item>이미지 메시지</item>
+    </string-array>
+
+    <string-array name="chat_room_send_msg_type">
+        <item>프로필보기</item>
+        <item>비밀쪽지</item>
+        <item>하트 보내기</item>
+        <item>폭탄 보내기</item>
+    </string-array>
+
+    <string-array name="chat_room_send_msg_normaltype">  <!-- update3 일반방 얼굴 클릭시 -->
+        <item>프로필 보기</item>
+        <item>비밀쪽지</item>
+    </string-array>
+
+    <string name="feed_all">전체공개</string>
+    <string name="feed_fam_only">맴버공개</string>
+    <string name="feed_write">잼 만들기</string>
+    <string name="feed_notice">공지 게시</string>
+    <string name="feed_modify">잼 수정</string>
+    <string name="feed_title_hint">주제를 써주세요.</string>
+    <string name="feed_text_hint">내용을 써주세요.</string>
+
+    <string name="private_msg_title">비밀쪽지</string>
+    <string name="private_msg_hint">실시간 비밀쪽지를 보냅니다.</string>
+    <string name="private_list_title">마지막에 받은 비밀쪽지</string>
+
+
+    <string name="feed_readying">승인 대기중</string>
+    <string name="feed_join">들어가기</string>
+    <string name="feed_join_count">명 참가 중입니다.</string>
+
+    <string name="title_size_err">제목을 한글자 이상 써주세요.</string>
+    <string name="text_size_err">소개를 한글자 이상 써주세요.</string>
+
+    <string name="name_setting">닉네임 설정</string>
+    <string name="name_size_err">한글자 이상 쓰시오.</string>
+
+    <string name="join_ready">승인 대기중 입니다.</string>
+    <string name="join_ban">강퇴 처리된 방입니다.</string>
+    <string name="join_name">닉네임</string>
+    <string name="join_desc">자기소개</string>
+
+    <string name="title_join_member">참여 맴버 보기</string>
+
+    <string name="btn_join_create">저장</string>
+
+    <string name="noti_ban" formatted="false">%s님이 강퇴 되었습니다</string>
+    <string name="noti_in" formatted="false">%s님이 입장 하였습니다.</string>
+    <string name="noti_out" formatted="false">%s님이 잼을 나가셨습니다.</string>
+
+    <string name="jam_out_title">잼 나가기</string>
+    <string name="jam_out_desc">이 잼에서 나가시겠습니까?</string>
+    <string name="jam_out_removeaudio">업로드된 메시지는 잼을 나가면 자동 삭제 됩니다.</string>
+
+    <string name="jam_out_err">리더는 방을 나갈수 없어요^^</string>
+
+    <string name="jam_remove_title">잼 폐쇄하기</string>
+    <string name="jam_remove_desc">잼을 폐쇄하시겠습니까?</string>
+    <!-- update3 새로고침후 목록제거 하기-->
+    <string name="jam_remove_room">폐쇄된 잼 입니다.\n약관 위반 또는 방장에 의해 폐쇄 되었습니다.\n새로고침후 목록에서 제거 됩니다.</string>
+    <string name="jam_remove_room_ok">폐쇄된 잼 입니다.\n약관 위반 또는 방장에 의해 폐쇄 되었습니다.\n목록에서 제거 하시겠습니까?</string>
+
+    <string name="jam_create_hint">음란성,폭력성 등 약관에 위반되는 내용을 포함하는 경우 동의 없이 폐쇄 됩니다.\n#태그 기능으로 검색어를 입력하세요.\nex)안녕 모두 #모여라 모두 #친구 하자.</string>
+
+    <string name="chat_remove_desc">해당 채팅을 제거 하시겠습니까?</string>
+
+    <string name="jam_report_title">잼 신고</string>
+    <string name="jam_report_desc">잼을 신고하시겠습니까?</string>
+
+    <string name="jam_promotion_title">잼 홍보</string>
+    <string name="jam_promotion_desc">잼을 홍보하시겠습니까?</string>
+    <string name="jam_promotion_err" formatted="false">%s초 뒤에 시도 할수 있습니다.</string>
+
+    <string name="create_title">잼 제목</string>
+    <string name="create_text">잼 소개</string>
+    <string name="create_cate">카테고리 선택</string>
+    <string name="create_lock">가입승인 켜짐</string>
+    <string name="create_lock_desc">가입승인을 통해서 맴버를 받을 수 있어요.</string>
+    <string name="create_open">가입승인 꺼짐</string>
+    <string name="create_open_desc">가입승인 없이 즉시 맴버를 받을 수 있어요.</string>
+    <string name="create_image">잼 이미지 선택</string>
+    <string name="create_loading">생성 하는 중..</string>
+    <string name="create_image_list_add">새로운 이미지 등록</string>
+    <string name="create_tag_size">태그는 3개 까지 적용 할수 있습니다</string>
+    <string name="create_tag_leng">태그는 최대 10자 까지 적용 할수 있습니다</string>
+    <string name="create_uc01">이전채팅보기 허용</string>
+    <string name="create_uc02">이전채팅보기 차단</string>
+    <string name="create_uc_desc01">모든 채팅 내역을 볼수 있습니다.</string>
+    <string name="create_uc_desc02">가입시점부터 채팅 내역을 볼수 있습니다.</string>
+
+    <string name="ready_count" formatted="false">승인 대기 (%s)</string>
+    <string name="member_count" formatted="false">MEMBER (%s)</string>
+
+    <string name="member_ban">강퇴하기</string>
+    <string name="member_master">방장변경</string>
+    <string name="member_joinok">가입 승인</string>
+    <string name="member_remove">승인하지 않고 대기열에서 삭제</string>
+
+    <string name="member_ban_msg01" formatted="false">%s님을 강퇴합니다. 강퇴하면 다시 들어올 수 없습니다</string>
+    <string name="member_ban_msg02" formatted="false">%s님을 잼에서 강퇴했습니다. 이 잼에 다시 들어올수 없습니다</string>
+
+    <string name="member_master_msg01" formatted="false">%s님에게 방장권한을 넘기겠습니까?</string>
+    <string name="member_master_msg02" formatted="false">%s님에게 방장권한을 넘겼습니다.</string>
+
+    <string name="btn_send">전송</string>
+    <string name="btn_search">검색</string>
+
+    <string name="err_nolist">개설된 잼이 없습니다.</string>
+    <string name="err_nolist2">목록이 없습니다.</string>
+    <string name="err_adult_img">이미지가 너무 야해요..ㅠ</string>
+    <string name="err_room_info">정보를 불러오는데 실패하였습니다. 잠시후 다시 시도해 주세요.</string>
+
+    <string name="row_title_guaid" formatted="false">%s님의 %s 잼.</string>
+
+    <string name="profile_popup_chat_image_downok">다운로드 완료</string>
+    <string name="profile_popup_chat_image_downfail">다운로드 실패</string>
+
+    <string name="setting_removeaudio">업로드 메시지 모두 제거</string>
+    <!--<string name="setting_removeimage">이미지 메시지 모두 제거</string>-->
+    <string name="setting_push">알림 설정</string>
+    <string name="setting_removeaudio_msg">업로드했던 오디오,이미지 메시지를 모두 제거 합니다.</string>
+    <!--<string name="setting_removeimage_msg">참여했던 잼의 이미지 메시지를 모두 제거 합니다.</string>-->
+    <string name="setting_version" formatted="false">잼 버전 %s</string>
+    <string name="setting_agree01">이용약관</string>
+    <string name="setting_agree02">개인정보취급방침</string>
+    <string name="setting_agree03">잼 운영 및 제재 규정</string>
+    <string name="setting_agree04">오픈 라이선스</string>
+
+    <string name="permission_account">구글드라이브에 이미지를 업로드 하기위해 로그인 작업이 필요합니다.</string>
+    <string name="permission_file_err">접근 권한이 필요 합니다.</string>
+    <string name="permission_all_err">앱정보 -> 권한 메뉴에서 모든 권한을 체크해주셔야 합니다</string>
+    <string name="drive_login">구글드라이브 로그인이 필요합니다.</string>
+
+    <string name="story_join">스토리</string>
+    <string name="story_write">등록</string>
+    <string name="story_comment">댓글</string>
+    <string name="story_remove">삭제</string>
+    <string name="story_remove_desc">삭제 하시겠습니까?</string>
+    <string name="story_modify">수정</string>
+
+    <string name="push_noti">새로운 대화가 있습니다.</string>
+    <string name="push_join_ok">대기중인 잼에 가입 승인 되었습니다.</string>
+    <string name="push_join_signup">새로운 가입 신청이 있습니다.</string>
+    <string name="push_story">새로운 스토리가 있습니다.</string>
+    <string name="push_story_comment">스토리에 새로운 댓글이 있습니다.</string>
+
+    <string name="audio_err">만료된 메시지 입니다.</string>
+
+    <string name="notice">Notice</string>
+    <string name="block_user_msg">서비스 정지된 유저 입니다.</string>
+    <string name="block_jam_msg">사용자의 신고로 정지된 잼 입니다.</string>
+    <string name="block_version">새로운 업데이트가 있습니다.</string>
+
+    <string name="logout_msg">기존에 보관된 채팅 정보가 모두 사라집니다.</string>
+    <string name="logout_title">로그아웃 하시겠습니까?</string>
+
+    <string name="app_exit">뒤로가기를 한번 더 누르면 종료 합니다</string>
+
+
+
+    <string name="block_text_err" formatted="false">금칙어(%s)가 포함되어 있습니다</string>
+    <string-array name="block_text">
+        <item>갈보</item>
+        <item>강간</item>
+        <item>개년</item>
+        <item>개놈</item>
+        <item>개뇬</item>
+        <item>개보지</item>
+        <item>개삽년</item>
+        <item>개새끼</item>
+        <item>개세이</item>
+        <item>개쉐이</item>
+        <item>개자식</item>
+        <item>개자지</item>
+        <item>개지랄</item>
+        <item>그룹섹스</item>
+        <item>까자</item>
+        <item>꼬추</item>
+        <item>노브라</item>
+        <item>니미</item>
+        <item>니미랄</item>
+        <item>니미럴</item>
+        <item>애미</item>
+        <item>애비</item>
+        <item>에비</item>
+        <item>에미</item>
+        <item>등신</item>
+        <item>딸딸이</item>
+        <item>또라이</item>
+        <item>레즈비언</item>
+        <item>멜섹</item>
+        <item>몰카</item>
+        <item>문섹</item>
+        <item>미친넘</item>
+        <item>미친년</item>
+        <item>미친놈</item>
+        <item>미친뇬</item>
+        <item>미친새끼</item>
+        <item>번색</item>
+        <item>번색</item>
+        <item>번섹</item>
+        <item>번섹</item>
+        <item>번쌕</item>
+        <item>병신</item>
+        <item>보지</item>
+        <item>본디지</item>
+        <item>부랄</item>
+        <item>부부교환</item>
+        <item>불알</item>
+        <item>빙신</item>
+        <item>빠구리</item>
+        <item>빠굴</item>
+        <item>빠꾸리</item>
+        <item>빡우리</item>
+        <item>빡울</item>
+        <item>뽀르노</item>
+        <item>새꺄</item>
+        <item>새끈</item>
+        <item>새끈남</item>
+        <item>새끈녀</item>
+        <item>새끼</item>
+        <item>색남</item>
+        <item>색녀</item>
+        <item>색스</item>
+        <item>색폰</item>
+        <item>성인만화</item>
+        <item>성인물</item>
+        <item>성인소설</item>
+        <item>성인엽기</item>
+        <item>성인영화</item>
+        <item>성인용</item>
+        <item>성인용품</item>
+        <item>성인잡지</item>
+        <item>세꺄</item>
+        <item>섹스</item>
+        <item>섹녀</item>
+        <item>쉬팔</item>
+        <item>쉬펄</item>
+        <item>스발</item>
+        <item>스와핑</item>
+        <item>스와핑</item>
+        <item>시발</item>
+        <item>시벌</item>
+        <item>시파</item>
+        <item>시펄</item>
+        <item>십팔금</item>
+        <item>쌍넘</item>
+        <item>쌍년</item>
+        <item>쌍놈</item>
+        <item>쌔깐</item>
+        <item>쌔끈</item>
+        <item>쌕쓰</item>
+        <item>쌕폰</item>
+        <item>썅</item>
+        <item>썅넘</item>
+        <item>썅년</item>
+        <item>썅놈</item>
+        <item>쒸팔</item>
+        <item>쒸펄</item>
+        <item>쓰바</item>
+        <item>씌팍</item>
+        <item>씨바</item>
+        <item>씨발</item>
+        <item>씨발넘</item>
+        <item>씨발년</item>
+        <item>씨발놈</item>
+        <item>씨발뇬</item>
+        <item>씨방</item>
+        <item>씨방새</item>
+        <item>씨버럴</item>
+        <item>씨벌</item>
+        <item>씨보랄</item>
+        <item>씨보럴</item>
+        <item>씨부랄</item>
+        <item>씨부럴</item>
+        <item>씨부리</item>
+        <item>씨불</item>
+        <item>씨불</item>
+        <item>씨브랄</item>
+        <item>씨파</item>
+        <item>씨팍</item>
+        <item>씨팔</item>
+        <item>씨펄</item>
+        <item>씹물</item>
+        <item>씹보지</item>
+        <item>씹새</item>
+        <item>씹새끼</item>
+        <item>씹색</item>
+        <item>씹세</item>
+        <item>씹세이</item>
+        <item>씹쉐</item>
+        <item>씹쉐이</item>
+        <item>씹쌔</item>
+        <item>씹쌔기</item>
+        <item>씹자지</item>
+        <item>씹창</item>
+        <item>씹탱</item>
+        <item>씹탱구리</item>
+        <item>씹팔</item>
+        <item>씹펄</item>
+        <item>씹할</item>
+        <item>야동</item>
+        <item>야사</item>
+        <item>야설</item>
+        <item>야캠</item>
+        <item>야한동영상</item>
+        <item>야한사이트</item>
+        <item>야한사진</item>
+        <item>에로</item>
+        <item>오랄</item>
+        <item>와레즈</item>
+        <item>원조교재</item>
+        <item>원조교제</item>
+        <item>음란</item>
+        <item>자위</item>
+        <item>자지</item>
+        <item>젖꼭지</item>
+        <item>젖탱</item>
+        <item>젖탱이</item>
+        <item>젼나</item>
+        <item>조까</item>
+        <item>졸라</item>
+        <item>좃</item>
+        <item>좃나</item>
+        <item>좃나게</item>
+        <item>좆</item>
+        <item>좆같</item>
+        <item>좆꼴리</item>
+        <item>좆나</item>
+        <item>좆나게</item>
+        <item>좆빠</item>
+        <item>좇</item>
+        <item>좇같</item>
+        <item>좇꼴려</item>
+        <item>좇꼴리</item>
+        <item>좇빠</item>
+        <item>지랄</item>
+        <item>지미랄</item>
+        <item>체모</item>
+        <item>캠색</item>
+        <item>캠섹</item>
+        <item>컴색</item>
+        <item>컴섹</item>
+        <item>컴섹</item>
+        <item>팬티</item>
+        <item>페니스</item>
+        <item>페티쉬</item>
+        <item>포르노</item>
+        <item>폰색</item>
+        <item>폰섹</item>
+        <item>폰쌕</item>
+        <item>헨타이</item>
+        <item>호로새끼</item>
+        <item>호빠</item>
+        <item>호스테스바</item>
+        <item>호스트바</item>
+        <item>화상색</item>
+        <item>화상섹</item>
+        <item>느금마</item>
+        <item>sex</item>
+        <item>fuck</item>
+        <item>ㅅㅂ</item>
+        <item>ㅂㅅ</item>
+        <item>좆밥</item>
+        <item>좃밥</item>
+        <item>노예</item>
+        <item>sm</item>
+        <item>신음</item>
+        <item>조건</item>
+        <item>정액</item>
+        <item>변기녀</item>
+        <item>더렵혀</item>
+        <item>암캐</item>
+        <item>쑤시</item>
+        <item>발정</item>
+        <item>음패</item>
+        <item>음폐</item>
+        <item>후장</item>
+        <item>음-패</item>
+        <item>음_패</item>
+        <item>음ㅡ패</item>
+        <item>여자 노ㅡ예</item>
+        <item>여자노ㅡ예</item>
+        <item>여자 노_예</item>
+        <item>여자 노-예</item>
+        <item>여자노_예</item>
+        <item>여자노-예</item>
+    </string-array>
+
+    <string-array name="block_name">
+        <item>갈보</item>
+        <item>강간</item>
+        <item>개년</item>
+        <item>개놈</item>
+        <item>개뇬</item>
+        <item>개보지</item>
+        <item>개삽년</item>
+        <item>개새끼</item>
+        <item>개세이</item>
+        <item>개쉐이</item>
+        <item>개자식</item>
+        <item>개자지</item>
+        <item>개지랄</item>
+        <item>그룹섹스</item>
+        <item>까자</item>
+        <item>꼬추</item>
+        <item>노브라</item>
+        <item>니미</item>
+        <item>니미랄</item>
+        <item>니미럴</item>
+        <item>애미</item>
+        <item>애비</item>
+        <item>에비</item>
+        <item>에미</item>
+        <item>등신</item>
+        <item>딸딸이</item>
+        <item>또라이</item>
+        <item>레즈비언</item>
+        <item>멜섹</item>
+        <item>몰카</item>
+        <item>문섹</item>
+        <item>미친넘</item>
+        <item>미친년</item>
+        <item>미친놈</item>
+        <item>미친뇬</item>
+        <item>미친새끼</item>
+        <item>번색</item>
+        <item>번색</item>
+        <item>번섹</item>
+        <item>번섹</item>
+        <item>번쌕</item>
+        <item>병신</item>
+        <item>보지</item>
+        <item>본디지</item>
+        <item>부랄</item>
+        <item>부부교환</item>
+        <item>불알</item>
+        <item>빙신</item>
+        <item>빠구리</item>
+        <item>빠굴</item>
+        <item>빠꾸리</item>
+        <item>빡우리</item>
+        <item>빡울</item>
+        <item>뽀르노</item>
+        <item>새꺄</item>
+        <item>새끈</item>
+        <item>새끈남</item>
+        <item>새끈녀</item>
+        <item>새끼</item>
+        <item>색남</item>
+        <item>색녀</item>
+        <item>색스</item>
+        <item>색폰</item>
+        <item>성인만화</item>
+        <item>성인물</item>
+        <item>성인소설</item>
+        <item>성인엽기</item>
+        <item>성인영화</item>
+        <item>성인용</item>
+        <item>성인용품</item>
+        <item>성인잡지</item>
+        <item>세꺄</item>
+        <item>섹스</item>
+        <item>섹녀</item>
+        <item>쉬팔</item>
+        <item>쉬펄</item>
+        <item>스발</item>
+        <item>스와핑</item>
+        <item>스와핑</item>
+        <item>시발</item>
+        <item>시벌</item>
+        <item>시파</item>
+        <item>시펄</item>
+        <item>십팔금</item>
+        <item>쌍넘</item>
+        <item>쌍년</item>
+        <item>쌍놈</item>
+        <item>쌔깐</item>
+        <item>쌔끈</item>
+        <item>쌕쓰</item>
+        <item>쌕폰</item>
+        <item>썅</item>
+        <item>썅넘</item>
+        <item>썅년</item>
+        <item>썅놈</item>
+        <item>쒸팔</item>
+        <item>쒸펄</item>
+        <item>쓰바</item>
+        <item>씌팍</item>
+        <item>씨바</item>
+        <item>씨발</item>
+        <item>씨발넘</item>
+        <item>씨발년</item>
+        <item>씨발놈</item>
+        <item>씨발뇬</item>
+        <item>씨방</item>
+        <item>씨방새</item>
+        <item>씨버럴</item>
+        <item>씨벌</item>
+        <item>씨보랄</item>
+        <item>씨보럴</item>
+        <item>씨부랄</item>
+        <item>씨부럴</item>
+        <item>씨부리</item>
+        <item>씨불</item>
+        <item>씨불</item>
+        <item>씨브랄</item>
+        <item>씨파</item>
+        <item>씨팍</item>
+        <item>씨팔</item>
+        <item>씨펄</item>
+        <item>씹물</item>
+        <item>씹보지</item>
+        <item>씹새</item>
+        <item>씹새끼</item>
+        <item>씹색</item>
+        <item>씹세</item>
+        <item>씹세이</item>
+        <item>씹쉐</item>
+        <item>씹쉐이</item>
+        <item>씹쌔</item>
+        <item>씹쌔기</item>
+        <item>씹자지</item>
+        <item>씹창</item>
+        <item>씹탱</item>
+        <item>씹탱구리</item>
+        <item>씹팔</item>
+        <item>씹펄</item>
+        <item>씹할</item>
+        <item>야동</item>
+        <item>야사</item>
+        <item>야설</item>
+        <item>야캠</item>
+        <item>야한동영상</item>
+        <item>야한사이트</item>
+        <item>야한사진</item>
+        <item>에로</item>
+        <item>오랄</item>
+        <item>와레즈</item>
+        <item>원조교재</item>
+        <item>원조교제</item>
+        <item>음란</item>
+        <item>자위</item>
+        <item>자지</item>
+        <item>젖꼭지</item>
+        <item>젖탱</item>
+        <item>젖탱이</item>
+        <item>젼나</item>
+        <item>조까</item>
+        <item>졸라</item>
+        <item>좃</item>
+        <item>좃나</item>
+        <item>좃나게</item>
+        <item>좆</item>
+        <item>좆같</item>
+        <item>좆꼴리</item>
+        <item>좆나</item>
+        <item>좆나게</item>
+        <item>좆빠</item>
+        <item>좇</item>
+        <item>좇같</item>
+        <item>좇꼴려</item>
+        <item>좇꼴리</item>
+        <item>좇빠</item>
+        <item>지랄</item>
+        <item>지미랄</item>
+        <item>체모</item>
+        <item>캠색</item>
+        <item>캠섹</item>
+        <item>컴색</item>
+        <item>컴섹</item>
+        <item>컴섹</item>
+        <item>팬티</item>
+        <item>페니스</item>
+        <item>페티쉬</item>
+        <item>포르노</item>
+        <item>폰색</item>
+        <item>폰섹</item>
+        <item>폰쌕</item>
+        <item>헨타이</item>
+        <item>호로새끼</item>
+        <item>호빠</item>
+        <item>호스테스바</item>
+        <item>호스트바</item>
+        <item>화상색</item>
+        <item>화상섹</item>
+        <item>느금마</item>
+        <item>sex</item>
+        <item>fuck</item>
+        <item>ㅅㅂ</item>
+        <item>ㅂㅅ</item>
+        <item>좆밥</item>
+        <item>좃밥</item>
+        <item>노예</item>
+        <item>sm</item>
+        <item>신음</item>
+        <item>조건</item>
+        <item>정액</item>
+        <item>변기녀</item>
+        <item>더렵혀</item>
+        <item>암캐</item>
+        <item>쑤시</item>
+        <item>발정</item>
+        <item>음패</item>
+        <item>음폐</item>
+        <item>후장</item>
+        <item>음-패</item>
+        <item>음_패</item>
+        <item>음ㅡ패</item>
+        <item>여자 노ㅡ예</item>
+        <item>여자노ㅡ예</item>
+        <item>여자 노_예</item>
+        <item>여자 노-예</item>
+        <item>여자노_예</item>
+        <item>여자노-예</item>
+        <item>운영자</item>
+    </string-array>
+
+    <string name="btn_agreement">동의</string>
+    <string name="info_agreement">이용약관</string>
+    <string name="text_agreement01" formatted="false"><![CDATA["목적
+
+이 이용약관(이하 ‘약관’)의 목적은 주식회사 판도라티비(이하 ‘회사’)가 제공하는 잼에 관한 모든 제품 및 서비스(이하 ‘서비스’)의 이용에 관한 사항에 대해 서비스를 이용하는 회원(이하 ‘회원’)과 회사 간에 정하는 것입니다.
+‘회사’는 ‘약관’작성 및 ‘서비스’운영 중 ‘약관’적용에 있어 관련 법령을 준수합니다.
+
+정의
+
+‘약관’에서 사용하는 용어를 다음과 같이 정의합니다.
+‘서비스’라 함은 설치되어 있는 단말기(PC, TV, 휴대형단말기 등의 각종 유무선 장치를 포함)와 상관없이 ‘회원’이 이용할 수 있는 잼 및 잼 관련 제반 서비스를 의미합니다.
+‘이용신청자’는 ‘서비스’에 가입하여 ‘회원’이 되고자 하는 고객을 의미합니다.
+‘회원’이라 함은 ‘회사’와 서비스 이용계약을 체결하여 ‘회사’가 제공하는 ‘서비스’를 이용할 수 있는 고객을 의미합니다.
+‘콘텐츠’란 ‘서비스’ 상에서 접근할 수 있는 부호, 문자, 문장, 음성, 음악, 이미지, 스킬, 동영상, 소프트웨어, 프로그램, 파일, 링크, 코드 및 기타 정보를 의미합니다.
+‘제공 콘텐츠’란 ‘서비스’를 통해 회사가 제공하는 콘텐츠를 의미합니다.
+‘게시물’란 ‘회사’와 이용계약을 맺은 ‘회원’이 ‘서비스’를 이용함에 있어 ‘서비스’에 게시, 업로드한 ‘콘텐츠’를 의미합니다.
+‘포인트’이란 무상 또는 유상으로 제공하는 ‘서비스’ 또는 ‘콘텐츠’와 교환 가능한 전자적 가상통화를 의미합니다.
+‘개별 이용약관’이란 서비스에 관하여 본 약관과는 별도로 배포 또는 게시한 ‘약관’, 가이드라인’, ‘정책’ 등의 명칭의 문서를 의미합니다.
+
+
+약관 게시/동의/개정/효력
+
+약관 게시 및 공지
+‘회사’는 최신 ‘약관’을 ‘서비스’ 및 ‘회사’가 정한 적절한 장소에 게시합니다.
+‘약관’이 개정될 경우, ‘회사’는 ‘약관’을 웹 페이지 내 게시, E-mail 통보, SMS 통보 및 회사가 정한 기타 공지 방법 중 1가지 이상의 방법으로 공지합니다.
+
+약관 동의
+‘회원’은 약관에 따라 ‘서비스’를 이용해야 합니다.
+‘회사’는 ‘이용신청자’가 ‘서비스’에 가입하기 전에 ‘약관’을 확인할 수 있도록 공시하고 ‘약관’ 동의를 구할 수 있는 절차를 제공합니다.
+‘이용신청자’는 ‘약관’ 동의를 거친 후 이용계약이 완료되어야만 ‘회원’으로써 ‘서비스’를 이용할 수 있으며, ‘약관’ 동의 없이는 이용계약을 완성할 수 없습니다.
+‘약관’이 개정되어 이를 정상적으로 공지한 날로부터 개정된 ‘약관’의 효력 발생일 사이에 ‘회원’이 명시적인 거부 의사표시를 하지 아니한 경우, ‘회사’는 ‘회원’이 개정약관에 동의한 것으로 봅니다.
+‘회원’이 개정된 ‘약관’에 동의하지 않는 경우 ‘회사’는 개정된 ‘약관’의 내용을 적용할 수 없으며, 이 경우 ‘회원’은 이용계약을 해지할 수 있습니다.
+
+약관 개정
+‘회사’는 관련법령을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.
+‘회사’가 약관을 개정할 경우 적용일자 및 개정사유를 명시하여 현행약관과 함께 적용일자 14일 전부터 공지합니다.
+‘회사’에 의해 개정약관이 ‘회원’에게 불리하다고 판단될 경우, 이메일 등 합리적인 방법을 통해 ‘회원’에게 공지하도록 합니다.
+
+약관 효력
+‘약관’과 ‘개별 이용약관’이 충돌할 경우, 해당 ‘개별 이용약관’의 규정을 우선 적용합니다.
+개정된 ‘약관’ 및 ‘개별 이용약관’의 효력은 개정 ‘약관’에 명시된 시점부터 그 효력이 발생하며, 장래를 향하여 유효합니다.
+‘약관’에서 정하지 아니한 사항이나 해석에 대해서는 ‘운영정책’ 및 관계법령 또는 상관례에 따릅니다.
+
+회원의 의무
+
+‘회원’은 ‘서비스’ 이용 중 발견된 버그나 시스템 오류 등의 문제점에 대해서 ‘회사’에 알려야 하며, 이를 전파하거나 악용해서는 안됩니다.
+‘회원’은 회원정보를 사실에 근거하여 작성하여야 합니다.
+‘회원’은 주소, 연락처, 전자우편 주소 등 이용계약 사항이 변경된 경우, 즉시 이를 반영하여 수정해야 하며, 수정을 하지 않거나 수정 지연으로 발생되는 책임은 ‘회원’에게 있습니다.
+‘회원’이 허위, 또는 타인의 정보를 등록한 경우 회사에 대하여 일체의 권리를 주장할 수 없으며, ‘회사’는 이로 인하여 발생하는 손해에 대하여 책임을 갖지 않습니다.
+‘회원’은 ‘약관’에서 규정하는 사항과 기타 ‘회사’가 정한 제반 규정, ‘회사’가 공지하는 사항을 준수하여야 합니다.
+‘회원’은 ‘회사’의 업무에 방해가 되는 행위나 ‘회사’의 명예를 손상시키는 행위를 해서는 안됩니다.
+‘회원’은 관계 법령을 준수하여야 하며, 이를 위반한 경우는 해당 법령에 의거 처벌을 받게 됩니다.
+‘회원’은 ‘서비스’ 이용 권한, 기타 이용 계약상의 지위를 타인에게 매도, 증여할 수 없으며 무형자산을 담보로 제공할 수 없습니다.
+‘회원’은 회원가입신청 당시 사실과 다른 정보를 기재하거나, 제3자의 개인정보를 이용 및 불법으로 도용해서는 안되며, ‘회사’가 제시하는 내용을 기재해야 합니다.
+‘회원’은 이용약관 내 명시된 저작권 및 지적재산권 관련 규정을 준수해야 합니다.
+‘회원’은 타 ‘회원’의 서비스 이용을 방해하거나 그 정보를 도용하는 등 전자거래질서를 위협하여서는 안됩니다.
+‘회원’은 타 ‘회원’에 대한 위협/희롱/지속적인 불쾌감을 주어서는 안됩니다.
+‘회원’은 ‘회사’에게 거짓된 제보/신고를 해서는 안됩니다.
+‘회원’은 서비스 내에서 ‘회사’ 또는 ‘회사’의 운영자/임직원을 사칭해서는 안됩니다.
+‘회원’은 서비스 이용 중 법률 위반행위 및 사회의 안녕/질서/미풍양속을 해치는 행위를 해서는 없습니다.
+‘회원’은 ‘회사’의 명예를 실추시키는 행위를 해서는 안됩니다.
+‘회원’은 ‘회사’의 홈페이지나 클라이언트 프로그램을 변경 또는 회사의 서버를 해킹하는 등의 시스템을 위협하는 행위를 해서는 안됩니다.
+‘회원’은 욕설, 비속어, 은어 등 일반적인 금기어를 사용해서는 안됩니다.
+‘회원’은 특정 사람/인종/국적/성별/종교/문화/장애 등을 비하, 비방, 폄훼해서는 안됩니다.
+‘회원’은 음란성 게시물, 악성코드유포를 목적으로 한 게시물, 지적 재산권 위반 게시물, 불법성 게시물 등을 업로드해서는 안됩니다.
+‘회원’은 타 ‘회원’의 ID/이메일 계정 등의 개인정보를 수집해서는 안됩니다.
+‘회원’은 범죄와의 결부, 관련 법령 위반 활동으로 판단되는 행위를 해서는 안됩니다.
+기타 ‘약관’ 및 ‘개별 이용약관’에 규정된 회원의 의무를 위반해서는 안됩니다.
+‘회원’은 타 ‘회원’으로 하여금 상기 의무 조항에 반하는 행위를 유발 및 조장해서는 안됩니다.
+
+회사의 의무
+
+‘회사’는 관련법과 이 약관이 금지하거나 미풍양속에 반하는 행위를 하지 않으며, 안정적으로 ‘서비스’를 제공하기 위하여 노력합니다.
+‘회사’는 ‘회원’이 안전하게 ‘서비스’를 이용할 수 있도록 개인정보(신용정보 포함)보호하기 위해 개인정보보호정책을 공시하고 준수합니다.
+‘회사’는 ‘서비스’이용과 관련하여 ‘회원’으로부터 제기된 의견이나 불만이 정당하다고 인정할 경우에 이를 처리하여야 합니다.
+‘회원’이 제기한 의견이나 불만사항에 대해서는 웹 페이지 내 게시, E-mail 통보, SMS 통보 및 회사가 정한 기타 공지 방법 중 1가지 이상의 방법을 통하여 ‘회원’에게 처리과정 및 결과를 전달합니다.
+
+이용계약
+
+이용계약 완성
+이용계약은 ‘이용신청자’가 약관의 내용에 대하여 동의를 한 다음 회원가입신청을 하고 ‘회사’가 이러한 신청에 대하여 승낙함으로써 완성됩니다.
+‘회사’는 ‘이용신청자’의 신청에 대하여 ‘서비스’ 이용을 승낙함을 원칙으로 합니다.
+회원가입신청의 승낙을 하지 아니하거나 유보한 경우, ‘회사’는 ‘이용신청자’가 기재한 연락수단을 이용하여 이 사실을 ‘이용신청자’에게 알리도록 합니다.
+이용계약의 완성 시기는 신청절차 상 ‘회사’가 가입완료를 표시한 시점입니다.
+‘회사’는 ‘회원’에 대해 회사정책에 따라 등급별로 구분하여 이용시간, 이용횟수, 서비스 종류 등을 세분하여 이용에 차등을 둘 수 있습니다.
+만14세 미만의 ‘이용신청자’가 ‘서비스’를 이용하기 위해서는 ‘회사’가 요구하는 소정의 법정대리인의 동의절차를 거쳐야 합니다.
+‘회원’은 ‘서비스’를 회원정보가 변경되었을 경우 즉각 회원정보를 수정하여야 하며, 회원정보 미 수정에 따라 발생하는 모든 책임은 ‘회원’에게 있습니다.
+‘회사’가 제공하는 ‘서비스’는 이용계약을 완성한 ‘회원’을 대상으로 제공됨을 원칙으로 합니다.
+
+이용제한 및 이용계약 해지
+‘회사’는 서비스 내에 이용계약 해지 기능을 제공하여, ‘회원’이 이용계약 해지를 신청할 수 있도록 합니다.
+‘회원’이 이용계약을 해지하는 경우, ‘회사’는 관련법에 따라 보유해야하는 회원정보를 제외하고 이용계약 해지와 동시에 ‘회원’의 모든 정보를 삭제하며 이는 복구가 불가능합니다.
+‘회원’이 이용계약을 해지하는 경우, 타인에 의해 재게시 되거나 공용게시판에 등록된 ‘게시물’ 등은 삭제되지 않습니다.
+‘회사’는 정당한 사유 없이 일방적으로 ‘회원’과의 이용계약을 해지할 수 없습니다.
+‘회사’는 다음에 해당하는 ‘회원’에 대해서 당해 ‘회원’에 대한 사전 통보 없이 이용제한 및 이용계약 해지, 수사기관의 고발 조치 등 적법한 조치를 취할 수 있으며, 이 경우 ‘회원’은 ‘서비스’와 관련된 권리를 주장할 수 없습니다.
+‘회원’이 ‘회원’의 의무에 반하는 행위를 한 경우입니다.
+‘회원’이 사망한 경우입니다.
+‘회원’은 이용제한 및 해지 조치에 대해 이의를 제의할 수 있으며, ‘회사’는 ‘회원’의 이의에 대해 응해야 하는 의무를 갖지 않습니다.
+
+이용계약 신청 거부
+‘회사’는 다음에 해당하는 회원가입신청에 대하여는 거부할 수 있습니다.
+이 ‘약관’에 의하여 이전에 회원자격을 상실한 적이 있는 ‘이용신청자’의 회원가입신청이며, '회사‘가 재계약을 승인한 경우는 예외로 합니다.
+사실과 다른 정보를 기재하거나, ‘회사’가 제시하는 내용을 기재하지 않은 경우입니다.
+‘이용신청자’의 잘못으로 인하여 승인이 불가능하거나 기타 규정 사항을 위반하며 신청하는 경우입니다.
+‘회사’는 설비의 여유가 없거나, 기술상 또는 업무상 문제가 있는 경우에는 승낙을 유보할 수 있습니다.
+
+
+서비스 제공
+
+‘회사’는 ‘회원’을 대상으로 그룹 생성, 가입, 검색 및 그룹 내 채팅이 가능한 그룹채팅 ‘서비스’를 제공합니다.
+‘회사’는 ‘서비스’의 제공을 일시적으로 중단할 수 있습니다.
+‘회사’는 제공하고 있는 전부 또는 일부 ‘서비스’를 변경할 수 있습니다.
+‘회사’는 ‘서비스’의 이용가능 시간 및 범위를 조건에 따라 ‘회원’에게 차등적으로 제공할 수 있습니다.
+‘회사’는 ‘회원’에게 타 ‘회원’의 ‘서비스’이용의 일부를 제한할 수 있는 기능을 제공합니다.
+‘회사’는 ‘서비스’가 중단 또는 변경될 경우, 이를 ‘회원’에게 웹 페이지 내 게시, E-mail 통보, SMS 통보 및 회사가 정한 기타 공지 방법 중 1가지 이상의 방법으로 공지합니다.
+‘회사’는 무료로 제공되는 서비스의 일부 또는 전부를 수정, 중단, 변경할 경우, 이에 대하여 관련법에 특별한 규정이 없는 한 ‘회원’에게 별도의 보상을 하지 않습니다.
+
+
+정보 공지 및 통지
+
+‘회사’는 ‘회원’에게 이메일 및 SMS 등을 통한 광고 및 서비스 관련 정보를 제공할 수 있습니다.
+‘회원’은 원치 않는 경우 ‘회사’가 제공하는 광고 및 서비스 관련 정보를 수신거부를 할 수 있으며, ‘회사’는 수신거부 기능을 서비스 내에 제공합니다.
+‘회사’는 광고 및 서비스 관련 정보의 사실성, 적법성 등에 관한 의무나 책임을 갖지 않습니다.
+
+
+개인정보 보호
+
+‘회사’는 최신 개인정보보호정책을 ‘서비스’ 및 ‘회사’가 정한 적절한 장소에 게시합니다.
+‘회사’는 ‘회원’의 개인정보 관리에 있어 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법, 전기통신사업법 등 관련 법규를 준수합니다.
+‘회사’는 ‘회사’가 정하는 개인정보보호정책을 통하여 ‘회원’의 개인정보의 용도와 이용 방식, 개인정보보호를 위한 조치, 보관 기간 등에 대해 정합니다.
+
+
+콘텐츠 관리
+
+‘제공 콘텐츠’란 ‘서비스’를 통해 회사가 제공하는 콘텐츠를 의미합니다.
+‘게시물’란 ‘회사’와 이용계약을 맺은 ‘회원’이 ‘서비스’를 이용함에 있어 ‘서비스’에 게시, 업로드한 콘텐츠를 의미합니다.
+
+게시물 관리
+‘회원’은 본인의 ‘게시물’과 관련하여 저작권, 인격권 등 제 3자와의 분쟁 발생 시 그 법적 대응 및 결과에 대한 책임을 지며, ‘회사’는 해당 ‘게시물’와 관련된 일체의 책임을 명시적으로 갖지 않습니다.
+‘회사’는 ‘서비스’를 통한 저작권 침해행위나 지적재산권 침해를 허용하지 않습니다.
+‘회원’의 ‘게시물’이 관련법에 위반되는 내용을 포함하는 경우, 권리자는 관련법이 정한 절차에 따라 해당 ‘게시물’의 게시중단 및 삭제 등을 요청할 수 있으며, ‘회사’는 요청에 따라 해당 ‘게시물’의 게시중단 및 삭제할 수 있습니다.
+‘회사’는 권리자의 요청이 없어도 ‘회원’의 ‘게시물’이 ‘약관’에 위배됨을 적절하게 고지받거나 인지할 경우, ‘게시물’의 수정, 게시중단 및 삭제를 할 수 있습니다.
+‘회사’는 ‘회원’의 ‘게시물’을 ‘서비스’ 운영 제한, 법령 및 ‘약관’ 위반 등의 사유로 사전통지 없이 삭제하거나 이동 또는 등록 거부할 수 있습니다.
+‘회원’의 ‘게시물’에 대한 저작권은 원래의 저작자가 보유하며, ‘게시물’에 대한 사용 권한 및 권리를 ‘회사’ 혹은 ‘회사가 지정한 자’에게 다음과 같이 부여합니다.
+‘회원’는 타 ‘회원’이 ‘서비스’에 제공한 ‘게시물’을 ‘서비스’ 내에서 제공하는 기능을 통해 변경 또는 삭제할 수 있습니다.
+‘회원’는 타 ‘회원’이 ‘서비스’에 제공한 ‘게시물’의 원본 또는 수정본을 ‘서비스’ 내에 재게시할 수 있습니다.
+저작권자의 요청이 있을 경우, 타 ‘회원’의 ‘게시물’을 게시한 ‘회원’은 원저작자를 명시해야 합니다.
+‘회사’는 ‘회원’이 ‘서비스’에 제공한 ‘게시물’을 국내 및 국외에서의 복제, 수정, 각색, 공연, 전시, 방송, 배포, 대여, 공중송신, 2차적 저작물 작성, 기타 이용의 목적으로 사용할 수 있으며,
+‘회사’는 ‘회원’이 ‘서비스’에 제공한 ‘게시물’의 사용 권한을 당사와 제휴하는 제삼자에게 재허락할 수 있습니다.
+‘게시물’의 백업은 ‘회원’이 직접 실시해야 합니다. ‘회사’는 ‘게시물’의 백업을 실시할 의무를 갖지 않습니다.
+‘회원’은 ‘약관’에 의해 채결된 저작물의 사용허락을 철회할 수 있으며, ‘회사’는 적법한 철회 절차를 공지합니다.
+‘회사’는 법령 또는 ‘약관’의 준수 상황 등을 확인할 필요가 있을 경우, ‘게시물’의 내용을 확인할 수 있으나, ‘회사’가 확인 작업에 관한 의무를 가지지 않습니다.
+‘게시물’은 일정 기간 이후에는 ‘서비스’ 상에서 삭제될 수 있습니다.
+
+제공 콘텐츠 관리
+‘회사’는 ‘제공 콘텐츠’에 대해 양도 및 재허락이 불가능하고 비독점적이며 ‘서비스’의 이용을 유일한 목적으로 하는 이용권을 ‘회원’에게 부여합니다.
+‘회원’은 이용료, 이용 기간 등의 이용 조건이 별도로 규정된 ‘제공 콘텐츠’를 이용할 경우, 해당 이용 조건에 따라야 합니다.
+‘서비스’의 화면에 ‘구입’, ‘판매’ 등이 표기되어 있을 경우에도 ‘회사’가 ‘회원’에게 제공하는 본 콘텐츠에 관한 지적재산권 기타 권리는 고객에게 이전되지 않으며, 고객에게는 상기 이용권만이 부여됩니다.
+‘회원’은 ‘제공 콘텐츠’를 ‘서비스’에서 미리 정한 이용 형태를 넘어서 이용(복제, 송신, 전재, 수정 등의 행위를 포함)해서는 안 됩니다.
+‘회사’는 ‘회원’이 비공개 모임 내에 게시하여 타인과 공유하고 있는 “게시물”을 삭제할 수 있는 편집기능을 제공하고 있습니다.
+
+
+준거법 및 재판관할
+
+‘약관’에서 정하지 않은 사항과 ‘약관’의 해석에 관하여는 대한민국 법 및 상관례에 따릅니다.
+‘서비스’ 및 ‘약관’과 관련한 제반 분쟁 및 소송은 서울중앙지방법원 또는 민사소송법상의 관할법원을 제1심 관할법원으로 합니다.
+
+제정일자 : 2015년 1월 15일
+"]]></string>
+
+
+
+    <string name="text_agreement02" formatted="false">
+<![CDATA["목적
+
+이 개인정보취급방침(이하 ‘개인정보취급방침’)의 목적은 주식회사 판도라티비(이하 ‘회사’라 함)가 제공하는 잼에 관한 모든 제품 및 서비스(이하 ‘서비스’)의 이용에 있어 서비스를 이용하는 고객(이하 ‘회원’)의 개인정보에 관하여 ‘회사’의 취급방침을 공지하는 것입니다.
+‘회사’는 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보보호법, 통신비밀보호법, 전기통신사업법 등 정보통신서비스제공자가 준수하여야 할 관련 법령상의 개인정보보호 규정을 준수합니다.
+
+
+개인정보의 수집 항목 및 방법
+
+개인정보 수집 항목
+‘회사’는 ‘회원’으로부터 다음의 개인정보를 수집합니다.
+단말기 모델명, 단말기 식별번호(디바이스 ID 또는 IMEI), 단말기 OS 버전, 생년, 성별, 아이디, 닉네임, 프로필 정보, 사진(메타정보 포함), 서비스 이용 기록, 이메일 주소, IP 주소
+
+
+개인정보 수집 방법
+‘회사’는 ‘회원’으로부터 다음의 방법으로 개인정보를 수집합니다.
+‘서비스’가입이나 사용 중 ‘회원’의 작성에 의한 수집, 잼 프로그램의 실행 또는 사용 중 자동으로 수집, 생성정보 수집 툴에 의한 수집, 협력회사로부터의 제공을 통한 수집
+
+
+개인정보의 사용 목적
+
+‘회사’는 ‘회원’으로부터 수집한 개인정보를 다음의 목적으로 사용합니다.
+재화 또는 서비스 제공
+서비스 제공, 청구서 발송, 콘텐츠 제공, 맞춤 서비스 제공, 본인인증, 연령인증, 요금결제·정산, ‘회원’이 가입한 그룹 내 상호 식별, 외부 서비스(카카오스토리/네이버/페이스북) 등 ‘회원’이 설정한 연결수단으로 계정연결 및 지인초대 등
+회원관리
+회원제 서비스 제공, 회원식별, 불량회원(이용약관에 따라 이용제한된 회원)의 부정 이용방지와 비인가 사용방지, 가입의사 확인, 분쟁 조정을 위한 기록보존, 불만처리 등 민원처리, 고지사항 전달 등
+신규 서비스 개발 및 마케팅 · 광고에의 활용
+신규 서비스 개발 및 맞춤 서비스 제공, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 서비스의 유효성 확인, 이벤트 참여기회 제공 또는 광고성 정보 제공, 접속빈도 파악, 서비스이용에 대한 통계 등
+
+
+개인정보의 공유 및 제공
+
+‘회사’는 서비스 이용과정에서 다음의 개인정보를 공개할 수 있습니다.
+서비스 이용 도중 상호간 식별을 위하여 ‘회원’간 아이디, 닉네임, 프로필, 사진 정보가 서비스 내에서 공개되며, ‘회원’은 자신의 설정에 따라 성별, 생년을 공개할 수 있습니다.
+‘회사’는 법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우, ‘회원’의 개인정보를 해당 기관에게 공유할 수 있습니다.
+‘회사’는 ‘회원’이 제 3자의 서비스 이용을 목적으로 공유에 동의한 개인정보를 공유할 수 있습니다.
+제휴한 서비스에 제공하는 개인정보는 이용자 이름 및 프로필 사진, 가입 그룹 목록, 친구 목록 등 서비스를 제공하기 위해 필요한 정보로 한정하며, ‘회사’는 ‘회원’이 해당 제휴 서비스를 이용할 목적으로 이용계약 신청 시 제공되는 개인정보 내용을 공지하고 동의를 구합니다.
+제휴 서비스에 제공되는 개인정보의 내용은 서비스를 제공하면서 추가/변경 될 수 있으며, 필요한 개인정보가 변경되면 서비스 이용 시 추가로 동의를 받습니다.
+
+
+개인정보의 취급위탁
+
+‘회사’는 개인정보의 취급위탁을 하지 않습니다.
+향후 개인정보를 위탁할 경우 ‘회원’에게 위탁처리기관, 업무내용 및 개인정보의 보유 및 이용기간 등을 ‘회원’에게 공지합니다.
+
+
+개인정보의 처리 및 보유 기간
+
+‘회원’의 개인정보는 이용목적이 달성되면 파기하는 것을 원칙으로 하나, 법령의 규정에 의해 보존할 필요가 있는 경우 ‘회사’는 법령에서 정한 기간 동안 개인정보를 보존합니다.
+
+
+개인정보의 파기절차 및 방법
+
+‘회원’의 개인정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기합니다. ‘회사’의 개인정보 파기절차 및 방법은 다음과 같습니다.
+
+파기절차
+‘회원’이 입력한 정보는 목적이 달성된 후 별도의 DB로 옮겨져(종이의 경우 별도의 서류함) 내부 방침 및 기타 관련 법령에서 정한 기간 동안 저장된 후 파기됩니다.
+파기방법
+전자적 파일 형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제합니다.
+종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.
+
+
+회원 및 법정대리인의 권리와 그 행사방법
+
+‘회원’ 및 법정대리인은 언제든지 등록되어 있는 자신 혹은 당해 만 14세 미만 아동의 개인정보를 조회하거나 수정할 수 있으며 가입해지를 요청할 수도 있습니다.
+‘회사’는 ‘회원’ 혹은 만 14세 미만 아동의 개인정보 조회, 수정을 위해서 서비스 내 프로필 변경 기능을 제공하며, 회원 혹은 법정대리인은 이를 이용하여 개인정보를 조회하고 수정할 수 있습니다.
+‘회사’는 ‘회원’ 혹은 만 14세 미만 아동의 개인정보 삭제를 위해서 서비스 내 계정삭제 기능을 제공하며, ‘회원’ 혹은 법정대리인은 이를 이용하여 이용계약 해지를 요청할 수 있습니다.
+
+
+개인정보 자동 수집 장치의 설치/운영 및 거부에 관한 사항
+
+‘회사’는 계정정보를 생성하기 위해 ‘회원’이 프로그램을 실행 시 단말기식별번호(디바이스ID 또는 IMEI)를 자동으로 수집합니다.
+‘회원’이 단말기식별번호를 자동으로 수집하는 것을 거부하는 경우 ‘서비스’를 이용할 수 없습니다.
+
+
+개인정보의 기술적/관리적 보호 대책
+
+회사는 이용자들의 개인정보를 취급함에 있어 개인정보가 분실, 도난, 누출, 변조 또는 훼손되지 않도록 안전성 확보를 위하여 다음과 같은 기술적/관리적 대책을 강구하고 있습니다.
+
+해킹 등에 대비한 대책
+‘회사’는 해킹이나 컴퓨터 바이러스 등에 의해 회원의 개인정보가 유출되거나 훼손되는 것을 막기 위해 노력합니다.
+개인정보의 훼손에 대비해서 자료를 수시로 백업하고 있고, 침입차단시스템을 이용하여 외부로부터의 무단 접근을 통제하고 있으며, 기타 시스템적으로 보안성을 확보하기 위한 가능한 기술적 장치를 갖추려 노력하고 있습니다.
+취급 직원의 최소화 및 교육
+‘회사’의 개인정보관련 취급 직원은 담당자에 한정시키고 있고 이를 위한 별도의 비밀번호를 부여하여 정기적으로 갱신하고 있으며, 담당자 교육을 통하여 개인정보취급방침의 준수를 강조하고 있습니다.
+개인정보보호전담기구의 운영
+사내 개인정보보호전담기구를 통하여 개인정보취급방침의 이행사항 및 담당자의 준수여부를 확인하여 문제를 발견하고 수정하고 있습니다.
+‘회사’는 ‘회원’의 부주의나 인터넷상의 문제로 개인정보가 유출되어 발생한 문제에 관해서 책임을 갖지 않습니다.
+
+
+개인정보관리책임자 및 담당자의 연락처
+
+‘회원’은 ‘회사’의 ‘서비스’ 이용 중 발생하는 개인정보보호 관련 민원을 개인정보관리책임자 혹은 담당부서로 신고할 수 있습니다.
+
+개인정보 관리책임자
+이 름 : 김병준
+소 속 : 잼팀
+직 위 : 팀장
+메 일 : novato.help@gmail.com
+
+기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.
+
+- 개인정보침해신고센터 (http://www.118.or.kr / 국번없이 118)
+- 대검찰청 사이버범죄수사단 (http://www.spo.go.kr / 02-3480-2000 )
+- 경찰청 사이버테러대응센터 ( http://www.ctrc.go.kr / 1566-0112 )
+
+
+기타
+
+'서비스' 내에 링크되어 있는 타 웹사이트의 개인정보 수집에 대해서는 ‘개인정보취급방침’이 적용되지 않습니다.
+
+
+고지의 의무
+
+‘개인정보취급방침’의 내용 추가, 삭제 및 수정이 있을 경우, 개정 최소 7일전부터 회사 홈페이지, 서비스 내 또는 기타 알기 쉬운 방법 중 1가지 이상의 방법으로 고지할 것입니다.
+
+제정일자 : 2015년 1월 15일
+    "]]></string>
+
+    <string name="text_agreement03" formatted="false">
+        <![CDATA["운영규정
+
+텍스트(잼소개/잼이름/닉네임/오늘의기분)
+
+성적인 의미를 직접적으로 담고 있는 표현
+성적인 의미를 비유적으로 담고 있는 표현
+음란한 정보를 공유할 목적을 포함한 표현
+성적인 목적으로 오프라인 만남을 유도하는 표현
+성적인 메시지를 포함하나 그 정도가 심하지 않거나, 부가적인 요소로 포함된 경우
+심각한 수준의 욕설이 주요 표현인 경우
+특정 대상(회원, 유명인 등)을 비방, 폄훼할 목적으로 한 표현
+자신이 잼 운영자임을 명시하는 표현
+자신이 유명인임을 명시하는 표현(단 역할극을 위한 목적임을 밝힐 경우 무방)
+다른 사용자의 닉네임을 사칭 목적으로 사용하는 경우
+자살, 폭력, 절도, 폭주, 일진, 셔틀, 가출, 왕따를 조장 또는 유도하는 표현
+공포나 혐오감을 직간접적으로 유발할 수 있는 표현
+무의미한 표현을 반복적으로 사용한 경우
+다른 사용자의 정상적인 서비스이용을 직접 방해 또는 선동할 목적의 표현
+잼 이외의 서비스 이용을 저해할 목적의 표현
+금칙어를 교묘한 글자 배열과 합성으로 표현
+협의되지 않은 상품, 서비스를 홍보하는 표현
+
+이미지(잼프로필사진/멤버프로필사진)
+
+음란물 사진, 주제와 상관없는 과도한 노출 사진, 다른 사용자의 실제 사진(무단 사용),
+공포와 혐오 사진, 운영자를 사칭 할 수 있는 사진
+    "]]></string>
+
+    <string name="text_agreement04" formatted="false">
+<![CDATA["okhttp
+http://www.apache.org/licenses/LICENSE-2.0
+http://square.github.io/okhttp/
+
+glide
+BSD, part MIT and Apache 2.0.
+https://github.com/bumptech/glide
+
+ShortcutBadger
+http://www.apache.org/licenses/LICENSE-2.0
+https://github.com/leolin310148/ShortcutBadger
+
+    "]]></string>
+
+</resources>

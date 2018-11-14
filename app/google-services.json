@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "361531429372",
+    "firebase_url": "https://jam201803-5c729.firebaseio.com",
+    "project_id": "jam201803-5c729",
+    "storage_bucket": "jam201803-5c729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361531429372:android:d33da70747f48498",
+        "android_client_info": {
+          "package_name": "com.novato.jam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361531429372-h0dghlhkts296rmni1dird474hmberbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCM9m1ygw9MTCH_6vC4KbB26sWBIUZ0Dvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

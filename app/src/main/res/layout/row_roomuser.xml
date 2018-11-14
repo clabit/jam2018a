@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center|left"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="?attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <com.novato.jam.customview.CircleImageView
+                        android:id="@+id/iv_img"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_in"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"
+                        android:maxLength="2"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_admin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_crown"
+                        android:layout_gravity="left|bottom"
+                        android:visibility="gone"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="16dp"
+                    >
+
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text=".."
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        android:textColor="@color/btn_back"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/tv_msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text=".."
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        android:textColor="@color/btn_gray"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_more"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/btn_more"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
