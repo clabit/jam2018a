@@ -630,7 +630,7 @@ public class RoomChatFragment extends BaseRoomFragment implements View.OnClickLi
             f.setText(myName + "님께서 " + youName + "님에게 하트를 보냈습니다.");
 
         } else if(type == ChatListReAdapter.TYPE_CATE_BOOM) {
-            f.setText(youName + "님이 폭탄을 받으셧습니다.");
+            f.setText(youName + "님이 폭탄을 받으셨습니다.");//맞춤법
 
         }
         f.setTime(Fire.getServerTimestamp());
